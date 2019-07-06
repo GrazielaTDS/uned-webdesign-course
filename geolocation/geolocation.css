@@ -1,0 +1,17 @@
+#mapa{
+    height: 500px;
+    width: 1000px;
+}
+
+#mapa iframe{
+    width: 100%;
+    height: 100%;
+}
+h2{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#ubicacion{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}

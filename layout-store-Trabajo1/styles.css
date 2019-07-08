@@ -27,6 +27,7 @@
 
 .nav-item:hover{
     background-color: #3D3B3B;
+    
 }
 
 nav{
@@ -44,12 +45,14 @@ article {
     column-count: 3;
     column-gap: 90px;
     column-rule-style: dotted;
+    margin-top: 10px;
   }
 #news {
-    background: #fff;
+    background: antiquewhite;
     margin: auto;
     padding: 20px 40px;
     width: 1000px;
+    margin-top: 50px;
 }
 #news h1{ 
     font-family: "Montserrat", sans-serif;

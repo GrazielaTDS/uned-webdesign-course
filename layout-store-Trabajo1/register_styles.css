@@ -126,6 +126,9 @@ input {
   padding: 0;
 }
 
+
+/* Nav bar */
+
 .nav-item{
   display: block;
   color: antiquewhite;
@@ -137,7 +140,7 @@ input {
 
 .nav-item:hover{
   background-color: #3D3B3B;
-  border-radius: 5px;
+  border-radius: 100px;
   
 }
 
@@ -148,4 +151,24 @@ nav{
 }
 nav a{
   float:right;
+}
+
+/* Footer */
+footer{
+  text-align: left;
+  background-color: rgb(80, 77, 77);
+  color: rgb(212, 212, 212);
+  margin-top: 500px; 
+}
+.footer-item{
+  display: inline-block;
+  padding-left: 50px;
+  display: inline-block;
+  vertical-align: top; 
+}
+.footer-item h1 {
+  color: antiquewhite;
+}
+.footer-item h4 {
+  color: antiquewhite;
 }

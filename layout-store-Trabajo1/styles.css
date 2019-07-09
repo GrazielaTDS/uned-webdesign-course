@@ -21,12 +21,13 @@
     color: antiquewhite;
     text-decoration: none;
     padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font: 14px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 20px;
 }
 
 .nav-item:hover{
     background-color: #3D3B3B;
+    border-radius: 100px;
     
 }
 
@@ -77,13 +78,6 @@ article {
     margin: auto;
   }
 
-.number-carousel{
-    color: #421313;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
 .dot{
     height: 15px;
     width: 15px;
@@ -113,3 +107,23 @@ article {
     from {opacity: .4} 
     to {opacity: 1}
 }
+
+/* Footer */
+footer{
+    text-align: left;
+    background-color: rgb(80, 77, 77);
+    color: rgb(212, 212, 212);
+    margin-top: 500px; 
+  }
+  .footer-item{
+    display: inline-block;
+    padding-left: 50px;
+    display: inline-block;
+    vertical-align: top; 
+  }
+  .footer-item h1 {
+    color: antiquewhite;
+  }
+  .footer-item h4 {
+    color: antiquewhite;
+  }

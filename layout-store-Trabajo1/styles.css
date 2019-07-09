@@ -1,8 +1,15 @@
+body {
+    font: 14px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #404040;
+    background: #3D3B3B;
+  }
+
+
 /* Navigator Bar Styles */
 #header-image{
     width: 100%;
+    margin-top: 5px; 
 }
-
 #categories-navbar li{
     display: inline-block;
     }
@@ -13,7 +20,9 @@
     margin-left: auto;
     margin-right: auto;
     background-color: #555;
-    padding: 0px;
+    padding: 5px;
+    margin-top: 0;
+    border-radius: 5px;
 }
 
 .nav-item{
@@ -34,7 +43,7 @@
 nav{
     background-color: #555;
     overflow: auto;
-    margin-bottom: 16px;
+    border-radius: 5px;
 }
 nav a{
     float:right;

@@ -63,6 +63,7 @@ article {
     padding: 20px 40px;
     width: 1000px;
     margin-top: 50px;
+    text-align: center;
 }
 #news h1{ 
     font-family: "Montserrat", sans-serif;
@@ -78,6 +79,29 @@ article {
 #news h3{
     font-size: 18px; 
 }
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+  }
+.mySlide-article {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+.slide-button {
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 50px;
+    user-select: none;
+}
+
+.slide-button:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
 
 /* Section Products */
 
